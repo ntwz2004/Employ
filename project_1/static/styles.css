@@ -1,0 +1,86 @@
+body {
+    background-color: #f0f4f8; /* สีพื้นหลัง */
+    font-family: Arial, sans-serif; /* ฟอนต์ */
+}
+
+.navbar {
+    background-color: #007bff; /* สีพื้นหลัง navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important; /* สีข้อความใน navbar */
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #ffdd57 !important; /* สีข้อความเมื่อ hover */
+}
+
+.container {
+    background-color: #ffffff; /* สีพื้นหลังของ container */
+    padding: 30px; /* ระยะ padding */
+    border-radius: 8px; /* ขอบมน */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* เงา */
+    margin-top: 20px; /* ระยะห่างจากด้านบน */
+}
+
+h2 {
+    margin-bottom: 20px; /* ระยะห่างด้านล่าง */
+    color: #343a40; /* สีของหัวข้อ */
+}
+
+.btn {
+    margin-top: 10px; /* ระยะห่างจากปุ่ม */
+}
+
+table {
+    margin-top: 20px; /* ระยะห่างจากตาราง */
+}
+
+th {
+    background-color: #007bff; /* สีพื้นหลังของหัวตาราง */
+    color: white; /* สีข้อความในหัวตาราง */
+}
+
+td {
+    vertical-align: middle; /* จัดแนวกลางในเซลล์ */
+}
+
+.form-control {
+    margin-bottom: 10px; /* ระยะห่างด้านล่าง */
+}
+
+@media (min-width: 576px) {
+    .form-row > div {
+        margin-bottom: 0; /* ปรับระยะห่างเมื่อขนาดหน้าจอเพิ่มขึ้น */
+    }
+}
+
+.table {
+    margin-top: 20px; /* ระยะห่างจากตาราง */
+}
+
+.table th, .table td {
+    text-align: center; /* จัดกึ่งกลาง */
+}
+
+.btn-lg {
+    margin: 10px; /* เพิ่มระยะห่างระหว่างปุ่ม */
+}
+
+/* เพิ่มสไตล์สำหรับฟอร์มใน modal */
+.modal-content {
+    border-radius: 8px; /* ขอบมนสำหรับ modal */
+}
+
+.modal-header {
+    background-color: #007bff; /* สีพื้นหลังของ header modal */
+    color: white; /* สีข้อความใน header modal */
+}
+
+.modal-body {
+    padding: 20px; /* ระยะ padding ใน body modal */
+}
+
+.modal-footer {
+    justify-content: center; /* จัดตำแหน่งปุ่มใน footer ของ modal */
+}
