@@ -54,3 +54,24 @@ td {
         margin-bottom: 0;
     }
 }
+
+body {
+    background-color: #f8f9fa; /* เปลี่ยนสีพื้นหลัง */
+}
+
+h2 {
+    color: #007bff; /* เปลี่ยนสีหัวข้อ */
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    text-align: center; /* จัดกึ่งกลาง */
+}
+
+.btn-lg {
+    margin: 10px; /* เพิ่มระยะห่างระหว่างปุ่ม */
+}
+
