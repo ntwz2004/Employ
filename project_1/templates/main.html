@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT Company</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='image/BT_company3.png') }}" alt="">
+                </div>
+            <ul class="menu">
+                <li><a href="{{ url_for('main') }}">Home</a> </li>
+                <li><a href="{{ url_for('about') }}">About </a> </li>
+                <li><a href="{{ url_for('contact') }}">Contact </a> </li>
+            </ul>
+            
+        </div>
+        </div>
+    </nav>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-con">
+            <div class="hero-info">
+                <h3>Employee Management</h3>
+                <p>การลงทะเบียนสำหรับพนักงานบริษัท</p>
+                <p>  การลงทะเบียนเป็นขั้นตอนสำคัญในการเข้าร่วมทีมงานของบริษัทเรา ซึ่งช่วยให้เราสามารถเก็บข้อมูลพื้นฐานและรายละเอียดที่จำเป็นเกี่ยวกับพนักงานใหม่ได้อย่างถูกต้องและครบถ้วน กระบวนการนี้จะทำให้การบริหารจัดการทรัพยากรมนุษย์เป็นไปอย่างมีประสิทธิภาพและช่วยสร้างความสะดวกในการสื่อสารภายในองค์กร
+                </p>
+                <a href="{{ url_for('index') }}" class="hero-btn">Sign</a>
+            </div>
+
+            <div class="hero-img">
+                <img src="{{ url_for('static', filename='image/company.png') }}" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="blog">
+    <div class="container">
+        <div class="blog-title">
+            <h3>Workspace</h3>
+        </div>
+        <div class="blog-con">
+        <div class="blog-item">
+            <img src="{{ url_for('static', filename='image/incom.jpg') }}" alt="">
+            <h4>Workstation</h4>
+            <p>มีไว้เพื่อเพิ่มประสิทธิภาพและความสะดวกสบายในการทำงาน พร้อมทั้งรองรับการทำงานเฉพาะทาง และช่วยให้พนักงานสามารถทำงานร่วมกันและจัดการข้อมูลได้อย่างปลอดภัย</p>
+            <a href="#" class="blog-btn">Learn more</a>
+        </div>
+
+        <div class="blog-item">
+            <img src="{{ url_for('static', filename='image/meet.jpg') }}" alt="">
+            <h4>Meeting Room</h4>
+            <p>เป็นพื้นที่ที่มีบทบาทสำคัญในการสนับสนุนการทำงานร่วมกัน การประชุม การตัดสินใจ การนำเสนอ และการติดต่อสื่อสารทั้งภายในและภายนอกองค์กร</p>
+            <a href="#" class="blog-btn">Learn more</a>
+        </div>
+
+        <div class="blog-item">
+            <img src="{{ url_for('static', filename='image/break.jpg') }}" alt="">
+            <h4>Break Room</h4>
+            <p>เป็นส่วนหนึ่งของสถานที่ทำงานที่ช่วยเพิ่มคุณภาพชีวิตของพนักงานในองค์กร โดยเน้นการพักผ่อนและการเชื่อมสัมพันธ์ที่ดีภายในทีม นอกจากนี้ยังเป็นการแสดงถึงการใส่ใจต่อพนักงานขององค์กร</p>
+            <a href="#" class="blog-btn">Learn more</a>
+        </div>
+
+        </div>
+    </div>
+
+</section>
+
+<div class="footer-top">
+    <div class="container">
+        <div class="footer-top-con">
+            <div class="footer-top-item">
+                <h4>Latest Posts</h4>
+                <div class="footer-top-item-con">
+                    <div class="date">
+                        OCT <br>
+                        23
+                    </div>
+                    <div class="info">
+                        <span class="info-title">ทบทวนผลการดำเนินงานและแผนกลยุทธ์ปีหน้า.</span>
+                        <span class="info-decs">โปรดเตรียมข้อมูลหรือประเด็นที่เกี่ยวข้องเพื่อนำเสนอในที่ประชุม หากท่านใดไม่สามารถเข้าร่วมได้ กรุณาแจ้งหัวหน้าฝ่ายล่วงหน้า.</span>
+                    </div>
+                </div>
+                <div class="footer-top-item-con">
+                    <div class="date">
+                        OCT <br>
+                        24
+                    </div>
+                    <div class="info">
+                        <span class="info-title">วันกีฬาและสันทนาการประจำปี 2024.</span>
+                        <span class="info-decs">ขอความร่วมมือทุกท่านเข้าร่วมกิจกรรมตามที่กำหนด เพื่อสนุกสนานและร่วมกันสร้างความสัมพันธ์ที่ดีภายในองค์กร.</span>
+                    </div>
+                </div>
+                <div class="footer-top-item-con">
+                    <div class="date">
+                        OCT <br>
+                        25
+                    </div>
+                    <div class="info">
+                        <span class="info-title">Outing ประจำปี 2024.</span>
+                        <span class="info-decs">กิจกรรมนี้จัดขึ้นเพื่อสร้างความสามัคคีในทีม และผ่อนคลายจากการทำงาน ขอเชิญทุกท่านร่วมเป็นส่วนหนึ่งของความสนุกและประสบการณ์ดีๆ ร่วมกัน.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-top-item">
+                <h4>About</h4>
+                <p>บริษัท BT Company เป็นองค์กรที่มุ่งเน้นการพัฒนานวัตกรรมและเทคโนโลยี เพื่อสนับสนุนการทำงานและสร้างความสะดวกสบายให้แก่ลูกค้า ด้วยทีมงานมืออาชีพและประสบการณ์ที่ยาวนาน บริษัทให้บริการในด้านต่างๆ เช่น การพัฒนาซอฟต์แวร์ การให้คำปรึกษาด้านเทคโนโลยี และการวางระบบโครงสร้างพื้นฐานทางไอที เพื่อตอบโจทย์ทุกความต้องการขององค์กรในยุคดิจิทัล</p>
+            </div>
+            <div class="footer-top-item">
+                <h4>Stay Connected</h4>
+                <p><i class="fa fa-facebook-square" aria-hidden="true"></i></i> Facebook</p>
+                <p><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</p>
+                <p><i class="fa fa-rss-square" aria-hidden="true"></i> RSS</p>
+                <p><i class="fa fa-google-plus-square" aria-hidden="true"></i> Google+</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer-bottom">
+    <p>Copyright 2024. All right reserved Bloom web design</p>
+</div>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

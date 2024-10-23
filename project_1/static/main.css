@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width:  1140px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #007bff;
+    
+}
+.nav-con {
+    display: flex;
+    justify-content:  space-between;
+}
+
+.logo img{
+    width: 120px;
+    margin: 0 1rem;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+    
+}
+
+.menu li {
+    margin: 0 1rem;
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+   
+}
+
+.menu li a:hover {
+
+    box-shadow:  0 0 10px rgba(0,0,0,0.3);
+    transition:  0.3s;
+    color: black;
+}
+
+.hero {
+    background-color: #f0f0f0;
+}
+
+.hero-con {
+    display: flex;
+    
+}
+
+.hero-info {
+    width: 100%;
+    padding: 2rem;
+}
+
+.hero-info h3 {
+    font-size: 5rem;
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+}
+
+.hero-info p {
+    margin:  1rem 0;
+}
+
+.hero-info .hero-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+.hero-info .hero-btn:hover {
+    box-shadow:  0 0 10px rgba(0,0,0,0.3);
+    transition:  0.3s;
+    color: black;
+}
+
+.hero-img img {
+    padding: 2rem;
+    width: 100%;
+}
+
+.blog-con {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.blog-title {
+    margin: 2rem 0;
+    font-size: 20px;
+}
+
+.blog-item img {
+    width: 100%;
+}
+
+.blog-item h4 {
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+
+
+.blog-item p {
+    margin:  1rem 0;
+}
+
+.blog-item a {
+    display:  inline-block;
+    color: #fff;
+    background-color:  #007bff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.blog-item a:hover {
+    box-shadow:  0 0 10px rgba(0,0,0,0.3);
+    transition:  0.3s;
+    color: black;
+
+}
+
+.footer-top {
+    margin-top:  2rem;
+    padding: 3rem;
+    background-color:  #333;
+    color: #fff;
+}
+
+.footer-top-con {
+    display:  grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    column-gap:  2rem;
+}
+
+.footer-top-item-con {
+    display: flex;
+    margin: 1rem 0;
+
+}
+
+.footer-top-item-con .date{
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0.5rem;
+    border-radius:  5px;
+    text-align:  center;
+    margin-right: 10px;
+}
+
+.footer-top-item:nth-child(2) h4{
+    margin: 1rem;
+}
+
+.footer-top-item:nth-child(3) h4{
+    margin: 1rem;
+}
+
+.footer-bottom {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.position-section {
+    background-color: #ffffff;
+    padding: 3rem 4rem;
+    margin: 4rem auto;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 900px;
+    text-align: center;
+}
+
+.position-section h1 {
+    color: #007BFF;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #007BFF;
+    display: inline-block;
+}
+
+.position-section p {
+    font-size: 18px;
+    padding: 0.5rem;
+    color: #555;
+}
+
+.position-section p:hover {
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.position-section .job-title {
+    margin-top: 2rem;
+    font-size: 1.75rem;
+    color: #333;
+}
+
+footer {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .position-section {
+        padding: 2rem;
+        margin: 2rem auto;
+    }
+
+    .position-section h1 {
+        font-size: 1.75rem;
+    }
+
+    .position-section p {
+        font-size: 16px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');

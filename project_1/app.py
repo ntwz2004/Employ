@@ -118,10 +118,27 @@ employee_tree = BST()
 with app.app_context():
     db.create_all()
 
+
+
 @app.route('/')
+def main():
+    employees = employee_tree.inorder()
+    return render_template('main.html')  # Route for main.html
+
+@app.route('/Employee')
 def index():
     employees = employee_tree.inorder()
-    return render_template('index.html', employees=employees)
+    return render_template('index.html' ,employees= employees)  # Route for main.html
+
+@app.route('/Position')
+def about():
+    return render_template('about.html')  # Route for main.html
+
+@app.route('/Contact')
+def contact():
+    return render_template('contact.html')  # Route for main.html
+
+
 
 @app.route('/add', methods=['GET', 'POST'])
 def add_employee():
